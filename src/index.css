@@ -2,74 +2,41 @@
 @tailwind components;
 @tailwind utilities;
 
-/* Supply Chain KPI Dashboard Design System */
+/* Definition of the design system. All colors, gradients, fonts, etc should be defined here. 
+All colors MUST be HSL.
+*/
 
 @layer base {
   :root {
-    /* Dashboard Color Palette - Professional Light Blue Theme */
-    --background: 210 30% 98%;
-    --foreground: 215 25% 27%;
+    --background: 0 0% 100%;
+    --foreground: 222.2 84% 4.9%;
 
     --card: 0 0% 100%;
-    --card-foreground: 215 25% 27%;
+    --card-foreground: 222.2 84% 4.9%;
 
     --popover: 0 0% 100%;
-    --popover-foreground: 215 25% 27%;
+    --popover-foreground: 222.2 84% 4.9%;
 
-    /* Primary: Professional Blue */
-    --primary: 214 84% 56%;
-    --primary-foreground: 0 0% 100%;
-    --primary-light: 214 57% 91%;
-    --primary-dark: 214 84% 46%;
+    --primary: 222.2 47.4% 11.2%;
+    --primary-foreground: 210 40% 98%;
 
-    /* Secondary: Light Blue Backgrounds */
-    --secondary: 214 57% 91%;
-    --secondary-foreground: 215 25% 27%;
+    --secondary: 210 40% 96.1%;
+    --secondary-foreground: 222.2 47.4% 11.2%;
 
-    --muted: 214 30% 95%;
-    --muted-foreground: 215 15% 55%;
+    --muted: 210 40% 96.1%;
+    --muted-foreground: 215.4 16.3% 46.9%;
 
-    --accent: 214 57% 91%;
-    --accent-foreground: 215 25% 27%;
+    --accent: 210 40% 96.1%;
+    --accent-foreground: 222.2 47.4% 11.2%;
 
-    /* Status Colors */
-    --success: 120 60% 50%;
-    --success-foreground: 0 0% 100%;
-    --success-light: 120 40% 95%;
-    
-    --warning: 43 96% 56%;
-    --warning-foreground: 0 0% 100%;
-    --warning-light: 43 100% 95%;
-    
-    --destructive: 0 84% 60%;
-    --destructive-foreground: 0 0% 100%;
-    --destructive-light: 0 100% 95%;
+    --destructive: 0 84.2% 60.2%;
+    --destructive-foreground: 210 40% 98%;
 
-    --border: 214 30% 90%;
-    --input: 214 30% 90%;
-    --ring: 214 84% 56%;
+    --border: 214.3 31.8% 91.4%;
+    --input: 214.3 31.8% 91.4%;
+    --ring: 222.2 84% 4.9%;
 
-    --radius: 0.75rem;
-
-    /* Dashboard Specific Tokens */
-    --dashboard-header: 214 84% 56%;
-    --dashboard-header-foreground: 0 0% 100%;
-    --dashboard-sidebar: 0 0% 100%;
-    --dashboard-sidebar-foreground: 215 25% 27%;
-    --dashboard-grid: 214 20% 96%;
-    
-    /* Gradients */
-    --gradient-primary: linear-gradient(135deg, hsl(214 84% 56%), hsl(214 84% 46%));
-    --gradient-success: linear-gradient(135deg, hsl(120 60% 50%), hsl(120 60% 40%));
-    --gradient-warning: linear-gradient(135deg, hsl(43 96% 56%), hsl(43 96% 46%));
-    --gradient-danger: linear-gradient(135deg, hsl(0 84% 60%), hsl(0 84% 50%));
-    
-    /* Shadows */
-    --shadow-card: 0 1px 3px 0 hsl(214 20% 20% / 0.1), 0 1px 2px 0 hsl(214 20% 20% / 0.06);
-    --shadow-large: 0 10px 15px -3px hsl(214 20% 20% / 0.1), 0 4px 6px -2px hsl(214 20% 20% / 0.05);
-    
-    /* Animations */
-    --transition-smooth: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+    --radius: 0.5rem;
 
     --sidebar-background: 0 0% 98%;
 
